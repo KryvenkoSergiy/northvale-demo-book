@@ -7,6 +7,7 @@ import CameraRig from "./CameraRig";
 import Island from "./Island";
 import Residents from "./Residents";
 import Post from "./Post";
+import Range from "./Range";
 import { quality } from "./quality";
 import WeatherEffects from "./WeatherEffects";
 import { lapse, sunPath } from "./timelapse";
@@ -272,6 +273,7 @@ export default function Scene({ onReady }: { onReady: () => void }) {
         {!still && <Pace />}
         <Atmosphere onDisc={setSun} shadows={high} />
         <CameraRig />
+        <Range />
         <Island high={high} />
         <Residents />
         <WeatherEffects high={high} />

@@ -45,7 +45,7 @@ export const uniforms = {
 };
 
 // Snow settles on faces whose normal points up; more snow reaches steeper faces. It changes from the ground up: the new amount
-// below uSnowLine, the old one above. Distant mountains sit below the island; clamped, they change with its base.
+// below uSnowLine, the old one above. Clamped: whatever sits below the island changes with its base.
 function addSnow(shader: WebGLProgramParametersWithUniforms) {
   Object.assign(shader.uniforms, { uSnowFrom: uniforms.uSnowFrom, uSnowTo: uniforms.uSnowTo, uSnowLine: uniforms.uSnowLine });
   shader.vertexShader = shader.vertexShader.replace("#include <common>", "#include <common>\nvarying float vSnowY;").replace(

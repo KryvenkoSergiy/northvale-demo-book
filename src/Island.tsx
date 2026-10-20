@@ -330,7 +330,6 @@ const assets = (() => {
       m.snow.value = 0;
       return m;
     })(),
-    mountainMat: snowy("#7b8794"),
   };
 })();
 
@@ -421,16 +420,6 @@ function build(tree: Model, pine: Model, rock: Model, grass: Model, lodge: Model
     lodge: lodgeParts(lodge, trunk.map),
   };
 }
-
-const mountains = (() => {
-  const rand = seeded(5);
-  return Array.from({ length: 7 }, (_, i) => {
-    // Spread behind the island (−z is away from the hero camera).
-    const a = -Math.PI / 2 + (i - 3) * 0.3 + (rand() - 0.5) * 0.15;
-    const d = 75 + rand() * 20;
-    return { pos: [Math.cos(a) * d, -8, Math.sin(a) * d] as const, r: 12 + rand() * 6, h: 10 + rand() * 6, seg: 5 + (i % 3) };
-  });
-})();
 
 /** The last chapter's lantern: from the far shore across the frozen lake to the lodge porch. */
 const WALK = new CatmullRomCurve3(
@@ -563,11 +552,6 @@ export default function Island({ high }: { high: boolean }) {
         <pointLight ref={porch} position={[0.42, 0.6, 1.02]} color="#ffb257" intensity={0} distance={4} decay={1.5} />
       </group>
       <Lantern />
-      {mountains.map((m, i) => (
-        <mesh key={i} position={m.pos} material={assets.mountainMat}>
-          <coneGeometry args={[m.r, m.h, m.seg]} />
-        </mesh>
-      ))}
     </group>
   );
 }
