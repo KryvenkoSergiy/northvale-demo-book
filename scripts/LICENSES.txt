@@ -1,0 +1,19 @@
+tree-deciduous, tree-pine, rock (+ .bin, .png they reference) — Quaternius "Stylized Nature MegaKit" [Standard], https://quaternius.com — CC0 1.0. Source files: CommonTree_1, Pine_1, Rock_Medium_1 (glTF).
+grass (+ Grass_Common_Short.bin, Grass.png) — same pack, CC0 1.0. Source: Grass_Common_Short (glTF).
+lodge — made for this site with lodge.py (Blender 5.1), no third-party content.
+
+Sound (Freesound HQ previews, 128 kbps MP3; all CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/):
+amb-rain-light — "Rain light 2 (rural)" by jmbphilmes — https://freesound.org/people/jmbphilmes/sounds/200273/
+amb-rain-heavy — "Heavy Rain" by EricsSoundschmiede — https://freesound.org/people/EricsSoundschmiede/sounds/666624/
+amb-wind-soft — "a gentle breeze, wind 3" by mario1298 — https://freesound.org/people/mario1298/sounds/181252/
+amb-blizzard — "ice storm" by tammarpokk — https://freesound.org/people/tammarpokk/sounds/420596/
+amb-birds-spring — "Bird song ambience spring morning warbler…" by TRP — https://freesound.org/people/TRP/sounds/572709/
+amb-forest-autumn — "Wind rustling leaves through tree Cardiff" by gsparrysound — https://freesound.org/people/gsparrysound/sounds/848978/
+amb-crickets-night — "Field ambience with crickets 3" by fthgurdy — https://freesound.org/people/fthgurdy/sounds/528941/
+amb-winter-quiet — "sfx_amb_forest_winter_night.wav" by bajko — https://freesound.org/people/bajko/sounds/378048/
+sfx-thunder-1 — "Thunder 08" by Emulius — https://freesound.org/people/Emulius/sounds/744723/
+sfx-thunder-2 — "Thunderclap" by Fission9 — https://freesound.org/people/Fission9/sounds/534023/
+sfx-thunder-3 — "Booming Thunder in Distance" by Fugeni — https://freesound.org/people/Fugeni/sounds/559804/
+
+Music (Pixabay Content License, https://pixabay.com/service/license-summary/):
+music-theme — "Ambient Piano and Strings" by Good_B_Music — https://pixabay.com/music/beautiful-plays-ambient-piano-and-strings-10711/
